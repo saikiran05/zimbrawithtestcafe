@@ -70,7 +70,15 @@ test.only('my first test', async t =>{
     .wait(3000);
      
 });
+fixture('Getting Started')
+    .page('https://devexpress.github.io/testcafe/example');
 
+test.only('My first test', async t => {
+    await t
+        .typeText('#developer-name', 'John Smith')
+        .click('#submit-button')
+        .expect(Selector('#article-header').innerText).eql('Thank you, John Smith!');
+});
 
 
 
