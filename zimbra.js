@@ -53,8 +53,8 @@ test.only('my first test', async t =>{
     //.typeText(cc,' sasi@miraclesoft.com')
     .typeText(subj,'demo mail')
     //  .debug()
-    .click(attach)
-    .setFilesToUpload("input[title='Upload File']",'D:\img1.png')
+   // .click(attach)
+    //.setFilesToUpload("input[title='Upload File']",'D:\img1.png')
     // .clearUpload("input[title='Upload File']")
     // .setFilesToUpload("input[title='Upload File']",'D:\img1.png')  //C:\Users\sasi\Pictures\Screenshots\Screenshot (2).png
     //  .click('mceu_19')
