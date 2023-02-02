@@ -73,7 +73,7 @@ test.only('my first test', async t =>{
 fixture('Getting Started')
     .page('https://devexpress.github.io/testcafe/example');
 
-test.only('My first test', async t => {
+test('My first test', async t => {
     await t
         .typeText('#developer-name', 'John Smith')
         .click('#submit-button')
